@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/login.css">
+    <title>Formulario de Login</title>
+</head>
+<body>
+    <nav>
+        <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+        <ul class="menu">
+            <li><a href="main.html">Inicio</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="registro.html">Registro</a></li>
+            <li><a href="carga.html">carga</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="left-panel">
+            <div class="image-container">
+                <div class="image-placeholder">Imagen</div>
+            </div>
+        </div>
+        <div class="right-panel">
+            <form>
+                <div class="input-group">
+                    <label for="name"><span class="icon">👤</span> Nombre</label>
+                    <input type="text" id="name" placeholder="Nombre">
+                </div>
+                <div class="input-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" placeholder="E-mail">
+                </div>
+                <div class="input-group">
+                    <label for="password">Contraseña</label>
+                    <input type="password" id="password" placeholder="Contraseña">
+                </div>
+                <button type="submit" class="login-button">Login</button>
+            </form>
+        </div>
+    </div>
+    <script src="../js/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Ejemplo</title>
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+    <nav>
+        <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+        <ul class="menu">
+            <li><a href="main.html">Inicio</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="registro.html">Registro</a></li>
+            <li><a href="carga.html">carga</a></li>
+        </ul>
+    </nav>
+    <header>
+        <div class="logo">logo</div>
+        <div class="page-name">nombre de la pagina</div>
+        <div class="search-bar">
+            <input type="text" placeholder="Búsqueda">
+            <button>Búsqueda</button>
+        </div>
+    </header>
+    
+    <main>
+        <section class="introduction">
+            Introducción
+        </section>
+        <section class="content">
+            <div class="con-definition">
+                ¿Qué es un con?
+            </div>
+            <div class="image">
+                imagen
+            </div>
+        </section>
+
+        <br>
+
+        <section class="contract-name">
+            Nombre del contrato
+        </section>
+
+        <section class="contract-info">
+            Información del contrato
+        </section>
+
+        <section class="additional-info">
+            <div class="sub-info">
+                Sub información
+            </div>
+            <div class="extra-info">
+                Información adicional
+            </div>
+        </section>
+    </main>
+    <div class="fixed-button" id="fixedButton">
+        IA
+    </div>
+    
+    <div class="chat-container" id="chatContainer">
+        <div class="chat-header">Chatbot</div>
+        <div class="chat-body" id="chatBody">
+            <!-- Aquí irán los mensajes del chatbot -->
+        </div>
+        <div class="chat-footer">
+            <input type="text" id="userInput" placeholder="Escribe un número..." />
+        </div>
+    </div>
+    
+    <script src="../js/main.js"></script>
+    
+</body>
+
+</html>

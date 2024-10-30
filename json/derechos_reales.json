@@ -1,0 +1,58 @@
+[
+    {
+        "pregunta": "¿Qué es un Derecho Real?",
+        "respuesta": "Es una categoría del derecho civil que regula las relaciones entre personas y bienes, otorgando al titular una relación directa sobre una cosa con efectos frente a terceros."
+    },
+    {
+        "pregunta": "¿Qué es el Derecho de Propiedad?",
+        "respuesta": "Permite al propietario usar, disfrutar y disponer de un bien de forma absoluta, con protección frente a terceros y posibilidad de extinción por abandono o expropiación."
+    },
+    {
+        "pregunta": "¿Cuáles son los Derechos Reales de Goce?",
+        "respuesta": "Permiten usar y disfrutar bienes ajenos, como el usufructo, uso y habitación, y servidumbre."
+    },
+    {
+        "pregunta": "¿Qué es el Usufructo?",
+        "respuesta": "Es el derecho de usar y disfrutar de un bien sin alterar su sustancia, de manera temporal."
+    },
+    {
+        "pregunta": "¿Qué implica el Uso y Habitación?",
+        "respuesta": "Permite el uso limitado de un bien para satisfacer necesidades personales y familiares, sin la posibilidad de cederlo a terceros."
+    },
+    {
+        "pregunta": "¿Qué es una Servidumbre?",
+        "respuesta": "Es un gravamen sobre un inmueble en beneficio de otro, siendo permanente y no transferible."
+    },
+    {
+        "pregunta": "¿Qué son los Derechos Reales de Garantía?",
+        "respuesta": "Son garantías sobre bienes para asegurar el cumplimiento de obligaciones, como hipoteca y prenda."
+    },
+    {
+        "pregunta": "¿Qué es una Hipoteca?",
+        "respuesta": "Es un derecho sobre un inmueble que no implica pérdida de posesión del bien."
+    },
+    {
+        "pregunta": "¿Qué es una Prenda?",
+        "respuesta": "Es un derecho sobre un bien mueble que generalmente implica la desposesión del bien."
+    },
+    {
+        "pregunta": "¿Qué son los Derechos Reales de Adquisición?",
+        "respuesta": "Otorgan la facultad de adquirir bienes bajo ciertas condiciones, como el condominio y la superficie."
+    },
+    {
+        "pregunta": "¿Qué es el Condominio?",
+        "respuesta": "Es una propiedad compartida en la que los titulares tienen derechos y obligaciones proporcionales."
+    },
+    {
+        "pregunta": "¿Qué es la Superficie?",
+        "respuesta": "Es el derecho de construir en terreno ajeno, siendo temporal y transferible."
+    },
+    {
+        "pregunta": "¿Qué son los Derechos Reales de Preferencia?",
+        "respuesta": "Otorgan un derecho preferente al acreedor para recibir pago sobre bienes específicos, como en el caso de la anticresis."
+    },
+    {
+        "pregunta": "¿Qué es la Anticresis?",
+        "respuesta": "Permite al acreedor recibir frutos de un inmueble en garantía, aplicándolos al pago de la deuda."
+    }
+]

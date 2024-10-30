@@ -1,0 +1,58 @@
+[
+    {
+        "pregunta": "¿Qué es el Derecho Penal?",
+        "respuesta": "El Derecho Penal es la rama del saber jurídico, que mediante la interpretación de las leyes penales, propone a los jueces un sistema orientador de decisiones que contiene y reduce el poder punitivo. Su fin es proteger Bienes Jurídicos y sancionar comportamientos que los atacan."
+    },
+    {
+        "pregunta": "¿Cuáles son las formas de abrir una instancia penal?",
+        "respuesta": "Se puede abrir una instancia penal mediante una denuncia en la comisaría, ante la fiscalía, o en el Juzgado Penal."
+    },
+    {
+        "pregunta": "¿Qué ocurre tras la presentación de la denuncia?",
+        "respuesta": "El juez evalúa si los hechos constituyen un delito. Si no se configura un delito, puede desestimarse la denuncia. Si se decide continuar, el juez inicia el sumario y envía el caso al fiscal."
+    },
+    {
+        "pregunta": "¿Quién es el denunciado en un proceso penal?",
+        "respuesta": "El denunciado es la persona acusada de haber cometido un delito. Se le asignará un defensor público o puede contratar un abogado particular."
+    },
+    {
+        "pregunta": "¿Qué es un querellante particular?",
+        "respuesta": "El querellante particular es una figura penal que permite a la víctima participar activamente en el proceso penal, presentando pruebas y ejerciendo facultades del fiscal, excepto en la indagatoria."
+    },
+    {
+        "pregunta": "¿Cuáles son los requisitos para presentar un querellante particular?",
+        "respuesta": "Se requiere nombre completo, domicilio de la víctima, un abogado particular con poder especial, y el reconocimiento del imputado si se conoce su identidad."
+    },
+    {
+        "pregunta": "¿Qué es un imputado?",
+        "respuesta": "Una vez que se establece que hay suficientes elementos para investigar al denunciado, éste pasa a ser imputado, es decir, una persona oficialmente investigada por la fiscalía."
+    },
+    {
+        "pregunta": "¿Cuáles son los bienes jurídicos que protege el Código Penal argentino?",
+        "respuesta": "Incluyen la vida e integridad física, el honor, integridad sexual, estado civil, libertad, propiedad, seguridad pública, orden público, seguridad de la Nación, poderes públicos, orden constitucional, administración pública, fe pública, y orden económico y financiero."
+    },
+    {
+        "pregunta": "¿Qué establece el Artículo 1 del Código Penal?",
+        "respuesta": "El Artículo 1 establece el Principio de Legalidad, señalando que ningún habitante de la Nación puede ser penado sin una ley previa que determine la pena."
+    },
+    {
+        "pregunta": "¿Qué establece el Artículo 2 del Código Penal?",
+        "respuesta": "El Artículo 2 establece la Aplicación de la Ley Penal más Benigna, señalando que, si la ley aplicable fuere modificada, la ley más benigna se aplicará al imputado, salvo en el caso de reincidencia."
+    },
+    {
+        "pregunta": "¿Qué es el delito de Homicidio Simple según el Código Penal?",
+        "respuesta": "El delito de Homicidio Simple se configura cuando una persona mata a otra, siendo la pena de reclusión o prisión de ocho a veinticinco años."
+    },
+    {
+        "pregunta": "¿Cuáles son las penalidades del Homicidio Agravado?",
+        "respuesta": "El Homicidio Agravado se pena con reclusión o prisión perpetua si hay circunstancias agravantes, como vínculo familiar, ensañamiento, o por una promesa remuneratoria."
+    },
+    {
+        "pregunta": "¿Cuáles son las medidas en caso de un delito grave o corrupción?",
+        "respuesta": "Debe presentarse la denuncia en la fiscalía, que coordinará la investigación y tomará medidas pertinentes."
+    },
+    {
+        "pregunta": "¿Cuáles son las opciones de contacto para denunciar o consultar información judicial?",
+        "respuesta": "Entre las opciones están el Juzgado Penal Federal 7 en Buenos Aires (+54 11 4311-4549), la Policía Federal Argentina (911 o +54 11 4370-5900), y el Ministerio Público Fiscal (https://www.mpf.gob.ar)."
+    }
+]
