@@ -8,17 +8,19 @@ body {
 }
 
 .REALLYcontainer{
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
     
+        width: 100%;
+         
+        display: grid;
+        place-items: center;
 }
 .container {
-    height: 300px;  
-    width: 300px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 50);
-}
+
+        width: 60%;
+        height: 400px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
 .left-panel {
     flex: 1;
     background-color: #2f3542;
