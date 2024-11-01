@@ -1,6 +1,5 @@
 body {
     font-family: Arial, sans-serif;
-    display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -8,36 +7,43 @@ body {
     background-color: #f4f4f4;
 }
 
+.REALLYcontainer{
+
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
 .container {
-    display: flex;
-    width: 700px;
-    height: 350px;
+   
+
+    height: 500vh;  
+    width: 500px;
+    
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
 .left-panel {
     flex: 1;
     background-color: #2f3542;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 35%; 
 }
 
 .image-container {
     width: 100px;
     height: 100px;
     background-color: #a4b0be;
-    margin-bottom: 350px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
 }
-
 .image-placeholder {
     font-size: 14px;
-    
+
 }
 
 .right-panel {
@@ -111,7 +117,8 @@ nav ul li a:hover {
 
 /* Estilos para hacer el menú responsive */
 .menu-toggle {
-    display: none;
+    position: absolute;
+    
     font-size: 24px;
     color: white;
     padding: 14px;
