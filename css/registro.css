@@ -8,14 +8,16 @@
 body {
     font-family: 'Arial', sans-serif;
     background-color: #b1b8c3;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin-top: 50px; /* Espacio para la navbar fija */
+
 }
 
+.REALLYcontainer{
+
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
 
 .container {
     display: flex;

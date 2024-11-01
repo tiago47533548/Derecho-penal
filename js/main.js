@@ -25,7 +25,6 @@ function includeHTML() {
 includeHTML();
 
 
-
 fixedButton.addEventListener("click", function() {
     if (!chatContainer.classList.contains("slideIn")) {
         chatContainer.classList.remove("slideOut");
@@ -35,13 +34,6 @@ fixedButton.addEventListener("click", function() {
         chatContainer.classList.add("slideOut");
     }
 });
-
-
-
-
-
-
-    
 
 function toggleMenu() {
     const menu = document.querySelector('.menu');
