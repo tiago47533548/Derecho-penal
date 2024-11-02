@@ -1,11 +1,11 @@
 body {
-    font-family: Arial, sans-serif;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f4f4f4;
+    font-family: 'Arial', sans-serif;
+    background-color: #b1b8c3;
 }
+
+
 
 .REALLYcontainer{
     
@@ -15,10 +15,12 @@ body {
         place-items: center;
 }
 .container {
-    margin-left: 30%;
-        width: 40%;
+    margin-left: 35%;
+    margin-top: 4.5%;
+        width: 30%;
         height: 400px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 10%;
     }
 
 .left-panel {
@@ -87,41 +89,100 @@ body {
     background-color: #2f3542;
 }
 /* Estilos base */
-nav {
-    background-color: #333;
-}
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+nav.so {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
 }
 
-nav ul li {
-    display: inline;
+/* Contenedor de los botones */
+.button-container {
+    display: flex;
+    gap: 20px;
 }
 
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    padding: 14px 20px;
-    display: block;
-}
-
-nav ul li a:hover {
-    background-color: #555;
-}
-
-/* Estilos para hacer el menú responsive */
-.menu-toggle {
-    position: absolute;
-    
-    font-size: 24px;
-    color: white;
-    padding: 14px;
+/* Botones de la navbar */
+.button {
+    background-color: #0052cc;
+    border-radius: 50%;
+    padding: 10px;
+    transition: transform 0.3s ease, width 0.3s ease;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
     cursor: pointer;
+    text-decoration: none;
+}
+
+/* Iconos dentro de los botones */
+.button i {
+    font-size: 18px;
+    color: #fff;
+}
+
+/* Efecto de expansión hacia ambos lados al pasar el mouse */
+.button:hover {
+    transform: scale(1.1); /* Expande ligeramente */
+    width: 60px; /* Ancho mayor para expansión */
+}
+
+/* Estilo adicional para el botón activo (opcional) */
+.button.active {
+    background-color: #003d99;
+}
+
+/* Texto debajo de los iconos (oculto o visible según se desee) */
+.button span {
+    display: none;
+}
+
+/* Estilo de los botones */
+.button-container {
+    display: flex;
+    background-color: rgba(0, 73, 144);
+    width: 250px;
+    height: 40px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px, rgba(0, 73, 144, 0.5) 5px 10px 15px;
+    transition: all 0.5s;
+}
+
+.button-container:hover {
+    width: 300px;
+    transition: all 0.5s;
+}
+
+.button {
+    outline: 0 !important;
+    border: 0 !important;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    transition: all ease-in-out 0.3s;
+    cursor: pointer;
+}
+
+.button:hover {
+    transform: translateY(-3px);
+}
+
+.icon {
+    font-size: 20px;
 }
 
 /* Ocultar el menú en pantallas pequeñas y mostrar el ícono de menú */

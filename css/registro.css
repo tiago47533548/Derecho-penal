@@ -11,6 +11,7 @@ body {
 
 }
 
+
 .REALLYcontainer{
 
 display: flex;
@@ -24,7 +25,7 @@ justify-content: center;
     flex-direction: row;
     background-color: #d6dae1;
     width: 400px;
-    border-radius: 10px;
+   
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
     margin-top: 60px; /* Espacio para evitar superposición con navbar */
@@ -91,42 +92,108 @@ button:hover {
 }
 
 
-/* Estilos base */
-nav {
-    background-color: #333;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+nav.so {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
 }
 
-nav ul li {
-    display: inline;
+/* Contenedor de los botones */
+.button-container {
+    display: flex;
+    gap: 20px;
 }
 
-nav ul li a {
-    color: white;
+/* Botones de la navbar */
+.button {
+    background-color: #0052cc;
+    border-radius: 50%;
+    padding: 10px;
+    transition: transform 0.3s ease, width 0.3s ease;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    cursor: pointer;
     text-decoration: none;
-    padding: 14px 20px;
-    display: block;
 }
 
-nav ul li a:hover {
-    background-color: #555;
+/* Iconos dentro de los botones */
+.button i {
+    font-size: 18px;
+    color: #fff;
 }
 
-/* Estilos para hacer el menú responsive */
-.menu-toggle {
+/* Efecto de expansión hacia ambos lados al pasar el mouse */
+.button:hover {
+    transform: scale(1.1); /* Expande ligeramente */
+    width: 60px; /* Ancho mayor para expansión */
+}
+
+/* Estilo adicional para el botón activo (opcional) */
+.button.active {
+    background-color: #003d99;
+}
+
+/* Texto debajo de los iconos (oculto o visible según se desee) */
+.button span {
     display: none;
-    font-size: 24px;
-    color: white;
-    padding: 14px;
+}
+
+/* Estilo de los botones */
+.button-container {
+    display: flex;
+    background-color: rgba(0, 73, 144);
+    width: 250px;
+    height: 40px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px, rgba(0, 73, 144, 0.5) 5px 10px 15px;
+    transition: all 0.5s;
+}
+
+.button-container:hover {
+    width: 300px;
+    transition: all 0.5s;
+}
+
+.button {
+    outline: 0 !important;
+    border: 0 !important;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    transition: all ease-in-out 0.3s;
     cursor: pointer;
 }
+
+.button:hover {
+    transform: translateY(-3px);
+}
+
+.icon {
+    font-size: 20px;
+}
+
+.login-icon {
+    width: 35px; /* Ajusta el tamaño según necesites */
+    height: 35px;
+    vertical-align: middle; /* O usa "sub" o "baseline" para probar posiciones */
+    margin-top: 6px; /* Ajusta el valor para moverlo hacia abajo */
+}
+
 
 /* Ocultar el menú en pantallas pequeñas y mostrar el ícono de menú */
 @media (max-width: 768px) {
