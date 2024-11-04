@@ -1,0 +1,22 @@
+[
+    {
+        "tema": "Contratos y Obligaciones",
+        "archivo": "contratos_obligaciones.json"
+    },
+    {
+        "tema": "Derechos reales",
+        "archivo": "derechos_reales.json"
+    },
+    {
+        "tema": "Relaciones familiares",
+        "archivo": "relaciones_familiares.json"
+    },
+    {
+        "tema": "Persona Juridica",
+        "archivo": "persona_juridica.json"
+    },
+    {
+        "tema": "Proceso Penal",
+        "archivo": "proceso_penal.json"
+    }
+]

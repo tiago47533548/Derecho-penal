@@ -1,0 +1,62 @@
+[
+    {
+        "pregunta": "¿Qué es una persona jurídica?",
+        "respuesta": "Es una entidad creada por ley que posee derechos y obligaciones, como asociaciones, empresas y fundaciones."
+    },
+    {
+        "pregunta": "¿Qué es una persona física?",
+        "respuesta": "Es un individuo humano que tiene derechos y deberes desde su nacimiento hasta su muerte."
+    },
+    {
+        "pregunta": "¿Qué trámites puede realizar una persona jurídica?",
+        "respuesta": "Una persona jurídica puede realizar trámites en entidades civiles y sociedades comerciales, como la inspección anual de asociaciones y fundaciones."
+    },
+    {
+        "pregunta": "¿Cómo se consulta con la Dirección de Entidades Civiles?",
+        "respuesta": "Se debe acudir a sus oficinas con turno previo y la tasa de inspección abonada, los días lunes, miércoles y jueves de 9 a 11 hs."
+    },
+    {
+        "pregunta": "¿Dónde se encuentran las oficinas de Entidades Civiles?",
+        "respuesta": "La dirección es Av. Roque Pérez N°2398, Piso 1, en Posadas, y el número de contacto es 03764447633."
+    },
+    {
+        "pregunta": "¿Qué trámites puede realizar una persona física?",
+        "respuesta": "Una persona física puede realizar trámites como renovación del DNI, cambio de domicilio, inscripción de nacimientos y defunciones."
+    },
+    {
+        "pregunta": "¿Qué es el DNI express?",
+        "respuesta": "Es una modalidad rápida de renovación del DNI que tarda aproximadamente 15 días hábiles en llegar al domicilio del solicitante."
+    },
+    {
+        "pregunta": "¿Qué costo tiene el trámite del DNI?",
+        "respuesta": "El trámite de nuevo DNI tiene un costo de $3000."
+    },
+    {
+        "pregunta": "¿Cuánto tarda en llegar el DNI al domicilio?",
+        "respuesta": "El DNI tarda alrededor de 15 días hábiles en llegar, y será entregado por OCA. Si no encuentran al destinatario, se puede retirar en la delegación."
+    },
+    {
+        "pregunta": "¿Cómo se realiza la inscripción de un nacimiento dentro de los 40 días?",
+        "respuesta": "Se debe realizar en el lugar de nacimiento del bebé, presentando el certificado médico y los DNIs de los padres."
+    },
+    {
+        "pregunta": "¿Dónde se realiza el trámite de inscripción de nacimiento?",
+        "respuesta": "Se realiza en la Centralizadora de Defunciones de lunes a viernes de 6.30 a 17 hs y fines de semana de 8 a 11 hs, por orden de llegada."
+    },
+    {
+        "pregunta": "¿Qué documentación se necesita para inscribir una defunción?",
+        "respuesta": "Se requiere el certificado médico del fallecido, su DNI físico y una fotocopia del mismo."
+    },
+    {
+        "pregunta": "¿Cuál es el plazo para inscribir una defunción?",
+        "respuesta": "Debe realizarse dentro de los 2 días hábiles. Pasado este plazo, se requiere una inscripción fuera de término según el Artículo 60 de la ley 26.413."
+    },
+    {
+        "pregunta": "¿Qué ocurre si la inscripción de defunción excede los 60 días?",
+        "respuesta": "Debe realizarse una inscripción judicial, según lo estipulado en el Artículo 70 de la Ley 26.413."
+    },
+    {
+        "pregunta": "¿Cuáles son las principales jurisdicciones encargadas de inscripciones de defunciones por causas traumáticas?",
+        "respuesta": "Son las jurisdicciones de Posadas, Oberá, Puerto Rico y Eldorado."
+    }
+]

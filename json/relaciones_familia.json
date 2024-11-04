@@ -1,0 +1,34 @@
+[
+    {
+        "pregunta": "¿Dónde solicito un turno para casarme?",
+        "respuesta": "Se puede solicitar en todas las delegaciones de la provincia. En Posadas, en la Sala Única de Matrimonios del Centro Cultural La Estación, de lunes a viernes de 7 a 18 hs."
+    },
+    {
+        "pregunta": "¿Cuáles son los requisitos para el trámite de matrimonio?",
+        "respuesta": "Se requieren nombres y apellidos de ambos contrayentes, edad, nacionalidad, domicilio, lugar de nacimiento, profesión, entre otros, según el Art. 416 del Código Civil y Comercial y la Ley 26.994."
+    },
+    {
+        "pregunta": "¿Pueden casarse parejas del mismo sexo?",
+        "respuesta": "Sí, el Código Civil y Comercial en el Art. 402 permite el matrimonio igualitario."
+    },
+    {
+        "pregunta": "¿Qué necesito para empezar un trámite de divorcio?",
+        "respuesta": "Debes presentarte ante el juez con una propuesta sobre quién quedará en la casa, el tiempo de convivencia con los hijos, cuota alimentaria, etc."
+    },
+    {
+        "pregunta": "¿Qué es la adopción y quiénes pueden adoptar?",
+        "respuesta": "Es el sistema que permite a menores tener una familia cuando no pueden ser cuidados por su familia de origen. Pueden adoptar matrimonios, convivientes y personas solas, cumpliendo requisitos como tener al menos 25 años de edad."
+    },
+    {
+        "pregunta": "¿Cuáles son los requisitos para la obligación alimentaria hacia los hijos?",
+        "respuesta": "Incluye alimentos, educación, vestimenta, salud, vivienda y entretenimiento; es una responsabilidad de ambos progenitores según los Arts. 658 y 659 del Código Civil y Comercial."
+    },
+    {
+        "pregunta": "¿Qué es la responsabilidad parental?",
+        "respuesta": "Son los derechos y obligaciones de los progenitores sobre sus hijos menores de edad. Incluye cuidados, educación, representación y administración del patrimonio del hijo."
+    },
+    {
+        "pregunta": "¿Puede un progenitor delegar su responsabilidad parental?",
+        "respuesta": "Sí, en el progenitor afín en casos de incapacidad o viaje, con intervención judicial si el otro progenitor no está de acuerdo."
+    }
+]

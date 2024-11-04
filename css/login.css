@@ -1,0 +1,207 @@
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #b1b8c3;
+}
+
+
+
+.REALLYcontainer{
+    
+        width: 100%;
+         
+        display: grid;
+        place-items: center;
+}
+.container {
+    margin-left: 35%;
+    margin-top: 4.5%;
+        width: 30%;
+        height: 400px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 10%;
+    }
+
+.left-panel {
+    flex: 1;
+    background-color: #2f3542;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35%; 
+}
+
+.image-container {
+    width: 100px;
+    height: 100px;
+    background-color: #a4b0be;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.image-placeholder {
+    font-size: 14px;
+
+}
+
+.right-panel {
+    flex: 1;
+    background-color: #dfe4ea;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #57606f;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #2f3542;
+}
+/* Estilos base */
+
+nav.so {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+}
+
+/* Contenedor de los botones */
+.button-container {
+    display: flex;
+    gap: 20px;
+}
+
+/* Botones de la navbar */
+.button {
+    background-color: #0052cc;
+    border-radius: 50%;
+    padding: 10px;
+    transition: transform 0.3s ease, width 0.3s ease;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Iconos dentro de los botones */
+.button i {
+    font-size: 18px;
+    color: #fff;
+}
+
+/* Efecto de expansión hacia ambos lados al pasar el mouse */
+.button:hover {
+    transform: scale(1.1); /* Expande ligeramente */
+    width: 60px; /* Ancho mayor para expansión */
+}
+
+/* Estilo adicional para el botón activo (opcional) */
+.button.active {
+    background-color: #003d99;
+}
+
+/* Texto debajo de los iconos (oculto o visible según se desee) */
+.button span {
+    display: none;
+}
+
+/* Estilo de los botones */
+.button-container {
+    display: flex;
+    background-color: rgba(0, 73, 144);
+    width: 250px;
+    height: 40px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px, rgba(0, 73, 144, 0.5) 5px 10px 15px;
+    transition: all 0.5s;
+}
+
+.button-container:hover {
+    width: 300px;
+    transition: all 0.5s;
+}
+
+.button {
+    outline: 0 !important;
+    border: 0 !important;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    transition: all ease-in-out 0.3s;
+    cursor: pointer;
+}
+
+.button:hover {
+    transform: translateY(-3px);
+}
+
+.icon {
+    font-size: 20px;
+}
+
+/* Ocultar el menú en pantallas pequeñas y mostrar el ícono de menú */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        display: none;
+        width: 100%;
+    }
+
+    nav ul.active {
+        display: flex;
+    }
+
+    nav ul li {
+        text-align: center;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+}

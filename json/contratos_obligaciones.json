@@ -1,0 +1,42 @@
+[
+    {
+        "pregunta": "¿Qué es un contrato?",
+        "respuesta": "Es un acuerdo legalmente vinculante entre dos o más partes, donde estas se comprometen a cumplir ciertas obligaciones o a abstenerse de realizar determinadas acciones."
+    },
+    {
+        "pregunta": "¿Cuáles son los tipos de contratos?",
+        "respuesta": "Existen contratos generales, que pueden adaptarse a diferentes situaciones, y contratos particulares, diseñados para acuerdos específicos y concretos entre las partes."
+    },
+    {
+        "pregunta": "¿Cuáles son las características de un contrato?",
+        "respuesta": "Incluyen acuerdo de voluntades, objeto lícito, capacidad de las partes, forma, consentimiento libre de vicios, causa, obligaciones recíprocas, legalidad, intención de crear relaciones jurídicas y posibilidad de ejecución."
+    },
+    {
+        "pregunta": "¿Qué son las obligaciones en derecho?",
+        "respuesta": "Son vínculos jurídicos donde una parte (deudor) debe cumplir con una prestación a favor de otra (acreedor), que puede consistir en dar, hacer o no hacer algo."
+    },
+    {
+        "pregunta": "¿Qué significa 'mora' en el cumplimiento de una obligación?",
+        "respuesta": "Es el retraso o incumplimiento de una obligación dentro del plazo establecido, que puede generar consecuencias legales como intereses o reclamos por daños."
+    },
+    {
+        "pregunta": "¿Cuáles son los tipos de obligaciones?",
+        "respuesta": "Incluyen obligaciones de dar (entrega de bienes), de hacer (realización de una acción) y de no hacer (prohibición de una acción)."
+    },
+    {
+        "pregunta": "¿Qué son los intereses compensatorios?",
+        "respuesta": "Son los intereses pactados para compensar al acreedor por el uso de un bien o dinero prestado durante un período de tiempo."
+    },
+    {
+        "pregunta": "¿Qué son los intereses moratorios?",
+        "respuesta": "Son los intereses que se generan cuando el deudor incurre en retraso en el cumplimiento de una obligación."
+    },
+    {
+        "pregunta": "¿Qué es el consentimiento libre de vicios en un contrato?",
+        "respuesta": "Es el requisito de que el acuerdo entre las partes sea realizado sin engaños, amenazas o errores que afecten su validez."
+    },
+    {
+        "pregunta": "¿Qué implica una obligación de hacer?",
+        "respuesta": "Implica realizar una acción determinada en beneficio del acreedor, como prestar un servicio acordado en el contrato."
+    }
+]
